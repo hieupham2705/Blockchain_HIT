@@ -1,0 +1,33 @@
+1. Blockchain là gì ?
+2. Giải thích các tính chất của blokchain ( chi tiết ) ?
++>Decentralization , distributed, immutability, transparency ,security
+3. Node là gì ?
+4. Block là gì ?
+bài làm:
+1.
+ Blockchain là công nghệ lưu trữ và truyền thông tin phi tập trung dựa trên một mạng lưới các node kết nối với nhau,
+được sử dụng để lưu trữ và xác nhận các giao dịch và thông tin một cách an toàn, minh bạch và không thể thay đổi.
+2.
++> Decentralization (phi tập trung): Blockchain không có một trung tâm điều hành hay điều khiển duy nhất mà được quản lý và giám sát bởi 
+tất cả các node trong mạng lưới, giúp ngăn chặn các hành động gian lận hay tấn công từ một bên thứ ba.
+
++> bảo mật (Security): Các giao dịch trong blockchain được mã hóa bằng cách sử dụng mã hóa khóa công khai (public key cryptography), 
+đảm bảo tính bảo mật và không thể bị thay đổi. Hơn nữa, việc liên kết các khối với nhau thông qua mã băm (hash)
+giúp đảm bảo rằng thông tin trong blockchain không thể bị thay đổi hoặc xóa bỏ.
+
++> Minh bạch (Transparency): Vì các thông tin trong blockchain được lưu trữ công khai và không thể thay đổi, 
+nên mọi người đều có thể xem và kiểm tra giao dịch trên blockchain. Điều này đảm bảo tính minh bạch và giảm thiểu sự gian lận.
+
++> Immutability (không thể thay đổi): Các block trong chuỗi khối được liên kết với nhau bằng cách mã hóa số học, làm cho việc thay đổi 
+dữ liệu trong một block trở nên khó khăn và không thể thực hiện nếu không thực hiện được sự đồng thuận từ phía của tất cả các node trong
+ mạng lưới.
+
++> Distributed (phân tán): Các thông tin trong blockchain được phân tán trên nhiều node trong mạng lưới, 
+giúp tránh tình trạng mất mát dữ liệu, giúp đảm bảo tính sẵn có và truy xuất được dữ liệu ở nhiều địa điểm khác nhau.
+3.
+ Node trong blockchain là một phần mềm hoặc thiết bị tham gia vào mạng lưới để xác nhận và xử lý các giao dịch trong blockchain,
+đồng bộ hóa thông tin và đưa ra quyết định chung. Có hai loại node là Full node và Light node.
+trong các nốt chưa các block
+4. 
+ Block là một phần của chuỗi khối trong blockchain, chứa thông tin về các giao dịch và được xác nhận bởi các node trong mạng lưới 
+trước khi được thêm vào chuỗi khối,mỗi block gồm có hashing và prehasing.
